@@ -77,10 +77,15 @@ var wordBreak = function(s, wordDict, skipSort) {
 
 // console.log(wordBreak(str5, words5), "expect false")
 
-const words6 = ["cc","ac"]
-const str6 = "ccaccc"
+// const words6 = ["cc","ac"]
+// const str6 = "ccaccc"
 
-console.log(wordBreak(str6, words6))
+// console.log(wordBreak(str6, words6))
+
+const words7 = ["cats","cat","dog","ski"]
+const str7 = "catskicatcats"
+
+console.log(wordBreak(str7, words7))
 
 
 /*
